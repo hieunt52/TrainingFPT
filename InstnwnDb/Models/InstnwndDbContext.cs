@@ -239,7 +239,7 @@ namespace InstnwnDb.Models
                 entity.HasOne(d => d.ReportsToNavigation)
                     .WithMany(p => p.InverseReportsToNavigation)
                     .HasForeignKey(d => d.ReportsTo)
-                    .HasConstraintName("FK_Employees_Employees");
+                    .HasConstraintName("FK_Employees_Employees_12323");
 
                 entity.HasMany(d => d.Territories)
                     .WithMany(p => p.Employees)
