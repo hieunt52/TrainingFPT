@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstnwnDb", "InstnwnDb\InstnwnDb.csproj", "{2448AA14-7B8A-4535-B584-A450BE87CEDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2448AA14-7B8A-4535-B584-A450BE87CEDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2448AA14-7B8A-4535-B584-A450BE87CEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2448AA14-7B8A-4535-B584-A450BE87CEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2448AA14-7B8A-4535-B584-A450BE87CEDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF20A8F3-A1BC-4EB2-95FA-3DE03002D18C}
+	EndGlobalSection
+EndGlobal
