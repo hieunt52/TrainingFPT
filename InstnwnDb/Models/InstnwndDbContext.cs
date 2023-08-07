@@ -230,9 +230,9 @@ namespace InstnwnDb.Models
 
                 entity.Property(e => e.PostalCode).HasMaxLength(10);
 
-                entity.Property(e => e.Region).HasMaxLength(15);
+                entity.Property(e => e.Region).HasMaxLength(30);
 
-                entity.Property(e => e.Title).HasMaxLength(30);
+                entity.Property(e => e.Title).HasMaxLength(50);
 
                 entity.Property(e => e.TitleOfCourtesy).HasMaxLength(25);
 
