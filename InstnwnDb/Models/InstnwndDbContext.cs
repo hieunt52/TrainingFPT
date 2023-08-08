@@ -369,7 +369,7 @@ namespace InstnwnDb.Models
                 entity.HasOne(d => d.Customer)
                     .WithMany(p => p.Orders)
                     .HasForeignKey(d => d.CustomerId)
-                    .HasConstraintName("FK_Orders_Customers_11111");
+                    .HasConstraintName("FK_Orders_Customers_12345");
 
                 entity.HasOne(d => d.Employee)
                     .WithMany(p => p.Orders)
