@@ -379,7 +379,7 @@ namespace InstnwnDb.Models
                 entity.HasOne(d => d.ShipViaNavigation)
                     .WithMany(p => p.Orders)
                     .HasForeignKey(d => d.ShipVia)
-                    .HasConstraintName("FK_Orders_Shippers");
+                    .HasConstraintName("FK_Orders_Shippers_12333");
             });
 
             modelBuilder.Entity<OrderDetail>(entity =>
